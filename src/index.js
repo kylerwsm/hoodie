@@ -1,10 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Page from './Page';
+import { appName, appDescription } from './const';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const props = {
+    title: `Welcome to ${appName}`,
+    subtitle: `${appDescription}`
+}
+
+ReactDOM.render(<Page {...props} />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

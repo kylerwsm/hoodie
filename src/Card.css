@@ -1,0 +1,10 @@
+.CardItem-img {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+}
+
+.CardItem-img-frame {
+    height: 250px;
+    width: 250px;
+}
