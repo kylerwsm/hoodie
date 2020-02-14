@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import Footer from './Footer';
 import { categoriesApi } from './const';
 
 class Page extends React.Component {
@@ -37,6 +38,9 @@ class Page extends React.Component {
                     }
                     return <Card {...prop}/>
                 })}
+            </div>
+            <div className='pt5'>
+                <Footer />
             </div>
         </div>);
     }
