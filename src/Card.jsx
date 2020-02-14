@@ -8,8 +8,8 @@ class Card extends React.Component {
                 <div className='CardItem-img-frame'>
                     <img className='CardItem-img br3 br--top' alt={this.props.title} src={this.props.imageUrl}></img>
                 </div>
-                <div className='pa2 ph3-ns pb3-ns'>
-                    <div>
+                <div className='CardItem-text pa2 ph3-ns pb3-ns'>
+                    <div className='CardItem-text'>
                         <h1 className="f5 f4-ns mv0">{this.props.title}</h1>
                         <p>{this.props.subtitle}</p>
                     </div>

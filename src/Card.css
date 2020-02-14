@@ -1,11 +1,18 @@
 .CardItem-img {
     object-fit: cover;
+    user-select: none;
     height: 250px;
     width: 250px;
 }
 
 .CardItem-img-frame {
     pointer-events: none;
+    user-select: none;
     height: 250px;
     width: 250px;
+}
+
+.CardItem-text {
+    pointer-events: none;
+    user-select: none;
 }
